@@ -41,7 +41,9 @@ Now, we just need to commit that to memory and that means it is time to go old-s
 *Homework: Write out the 1 3 5 7 tones for every note in our 16 tone list, above.*
 
 I know, that is a bit painful.  I empathize, so here is a set of flashcards I made just for you:
-<iframe src='https://www.flippity.net/fce.asp?k=1pvIoH8F3QOnvkQZIjdYNx0-eJE5Fov8V6dC_vsp0TUg' width='650' height='450' frameborder='0'></iframe>
+<div class="embed-responsive embed-responsive-1by1">
+<iframe class="embed-responsive-item" src='https://www.flippity.net/fce.asp?k=1pvIoH8F3QOnvkQZIjdYNx0-eJE5Fov8V6dC_vsp0TUg' width='650' height='450' frameborder='0'></iframe>
+</div>
 
 *More Homework: Pick a "This day is brought to you by the letter ..." each day.  Try to figure out the chord tones and then check yourself against the associated flash card.  Take those tones to your instrument, on guitar play the arpegios on one string.  Play the root and sing the root letter name. Sing the 3rd (saying the letter name), then play the 3rd and check yourself and make corrections to your pitch.  Sing the 5th and then play the 5th, making pitch corrections, and then do the same with the 7th.*
 
