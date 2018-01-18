@@ -2,9 +2,10 @@
 layout: post
 title: Brute Force Tone Recognition
 category: music
+excerpt_separator: <!--more-->
 ---
 
-So, the time has come where you've decided to learn all of the tones in Maj7, Dom7, min7, and min7b5 chords.  It quickly becomes apparent that there is no shortcut and it is going to require some consistent effort to memorize the tones for each chord type for all 16 tones (counting enharmonics).  This is going to take a process of Brute Force Tone Recognition. <i class="fa fa-wrench" aria-hidden="true"></i>
+So, the time has come where you've decided to learn all of the tones in Maj7, Dom7, min7, and min7b5 chords.  It quickly becomes apparent that there is no shortcut and it is going to require some consistent effort to memorize the tones for each chord type for all 16 tones (counting enharmonics).  This is going to take a process of Brute Force Tone Recognition. <i class="fa fa-wrench" aria-hidden="true"></i><!--more-->
 
 Different people learn at different rates requiring different methods, the following is one method and the amount of time it will take depends on the individual and the amount of consistent effort put into the process.  Be sure not to be too hard on yourself, persistence is key.  Apply the process to your instrument.  I play guitar, thus, will be discussing topics in the context of guitar.  This shouldn't inhibit you from appling concepts to piano, bass, a wind instrument, whatever it is that you play.  It is music, theory is universal.  It always makes me die a little inside when I hear/read guitar theory, really, it is just click bait for guitarists.  So, let's have a look at how to approach this:
 
