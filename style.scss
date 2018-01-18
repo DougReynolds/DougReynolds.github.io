@@ -18,9 +18,10 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  overflow-y: auto;
 }
 
 .container {
@@ -28,6 +29,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  overflow-y: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: $darkorange;
   }
 }
 
@@ -69,11 +71,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $darkorange;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $darkorange;
   }
 }
 
@@ -151,12 +153,14 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .masthead {
+  margin-top: 80px;
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  background-image: url(images/saber_bg.jpg);
 
   @include mobile {
     text-align: center;
@@ -202,7 +206,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -212,7 +216,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  //margin-top: 100px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -232,11 +236,17 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $darkorange;
     }
   }
+  a.active {
+      background-color: $lightGray;  
+    }
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: $darkorange;
+}
 //
 // .main
 //
@@ -252,6 +262,16 @@ nav {
 }
 
 .post {
+  .entry {
+     margin-top: 50px;
+  }
+  .paypal {
+     width: 175px;
+     float: right;
+     background-color: $lightGray;
+     padding: 10px;
+     text-align: center;
+  }
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -272,6 +292,7 @@ nav {
 }
 
 .wrapper-footer {
+  width: 100%;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;

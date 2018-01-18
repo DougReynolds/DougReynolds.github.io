@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I play guitar and write Web applications.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I study music and technology, mainly Jazz, Fusion, Rock, Blues, and Javascript.  I enjoy teaching and sharing information with others of like-minded interests.  If you are interested in guitar instruction via Skype, feel free to contact me at:
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+### Contact
+[dougrey7music@gmail.com](mailto:dougrey7music@gmail.com)

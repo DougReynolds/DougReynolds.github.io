@@ -1,0 +1,8 @@
+<div class="blog-index">  
+  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+  <div class="entry">
+    {{ post.excerpt }}
+  </div>
+  {{ post.date | date_to_long_string }}
+  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+</div>
