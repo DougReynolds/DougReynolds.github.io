@@ -1,6 +1,7 @@
 <div class="blog-index">  
   <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
   {{ post.date | date_to_long_string }}
+  <div>{% include post-tags.html %}</div>
   <div class="entry">
     {{ post.excerpt }}
   </div>

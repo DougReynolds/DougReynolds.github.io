@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Grunt Task Race Conditions
+author: Doug Reynolds
+category: technology
 post-img: "images/snails.jpg"
 excerpt_separator: <!--more-->
+tags:
+- grunt
+- javascript
 ---
 
 !['Race Condition']({{ site.baseurl }}/images/snails.jpg){:class="text-wrap-left"} Normally, task control flow in Grunt is a simple process of defining the order of task processes in one, or more, default tasks.  This is especially true when your tasks require static data in their configurations, e.g. a static list of paths used for the `src` attribute of an uglify task.  <!--more-->However, we can introduce problems into task flow control when we begin adding dynamic task configuration property data. Grunt will run all methods and populate task properties early, during the load task stage, so if you write a method that is to be called at a specific time, you really don't have control over the timing of that method call.  With static data this is not a problem because the data exists during the task load. Conversely, with dynamic data, this becomes a problem due to data either being stale or non-existent during the load phase.

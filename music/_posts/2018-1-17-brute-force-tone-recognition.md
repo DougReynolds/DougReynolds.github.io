@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Brute Force Tone Recognition
+author: Doug Reynolds
 category: music
 excerpt_separator: <!--more-->
+tags:
+- theory
+- chords
 ---
 
 So, the time has come where you've decided to learn all of the tones in Maj7, Dom7, min7, and min7b5 chords.  It quickly becomes apparent that there is no shortcut and it is going to require some consistent effort to memorize the tones for each chord type for all 16 tones (counting enharmonics).  This is going to take a process of Brute Force Tone Recognition. <i class="fa fa-wrench" aria-hidden="true"></i><!--more-->
